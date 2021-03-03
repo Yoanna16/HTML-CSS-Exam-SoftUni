@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.header-navigation {
+    background:#00c5ac ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-navigation img {
+    height: 50px;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-links li {
+    list-style: none;
+    padding: 15px;
+}
+
+.navigation-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+}
+
+.header-banner {
+    background: #ffb900;
+
+}
+
+.header-banner-title {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-banner-text {
+    margin-left: auto;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    width: 600px;
+    margin-right: auto;
+    padding-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-content {
+    font-family: "Montserrat", sans-serif;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.main-teachers {
+    display: flex;
+}
+
+body > main > section.main-teachers > article:nth-child(1) {
+    padding-right: 10px
+}
+
+
+.img-teacher img {
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 7px solid #00c5ac;
+}
+
+
+.normal-teachers {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.teacher-name {
+   font-weight: bold;
+   color: #00c5ac;
+   margin-bottom: 5px;
+   font-size: 18px;
+ 
+}
+
+.teacher-role {
+    color: grey;
+    margin-top: 0;
+    font-size: 13px;
+}
+
+.normal-teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.be-part-of-the-team {
+    background: #66aefb;
+    border-top: 10px solid #d9ecff;
+    padding-bottom: 100px;
+}
+
+.heading-title {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.team-text {
+    margin-left: auto;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    width: 600px;
+    margin-right: auto;
+    padding-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-wrapper { 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.form-wrapper input { 
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.send-btn {
+    border-radius: 50px; 
+    background: #ff8f00;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border: none;
+    box-shadow: 1px 1px 7px black;
+}
+
+footer {
+    background: #565656;
+    border-top: 10px solid #909090
+}
+
+.footer-wrapper {
+    margin-top: 40px;
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: "Helvetica", sans-serif;
+
+}
+
+.softuni-footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-right: 70px ;
+}
+
+.footer-nav-list  {
+    padding-left: 0;
+}
+
+.footer-nav-list-icons {
+    padding-left: 0;
+    display: flex;
+    
+}
+
+.footer-nav-list-icons li {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-nav-list-icons li a  {
+    text-decoration: none;
+}
+
+.footer-nav-list-icons li a i  {
+    color: white;
+}
+
+
+
+.softuni-footer-nav h4 {
+    margin-top: 0;
+    color: white;
+}
+
+.footer-nav-list li {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-nav-list li a {
+    text-decoration: none;
+    color: white
+}
